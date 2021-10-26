@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Crossword Puzzle</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'><link rel="stylesheet" href="./Hello.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container crosswordDisplay">
+  
+<div class="row">
+<!-- Create & Play buttons required for user generated crossword - disabled for Proscribed questions -->
+    <div class="btn btn-default disabled" id="btnCreate">Create</div>
+    <div class="btn btn-default disabled" id="btnPlay">Play</div>
+  
+    <div class="btn btn-default" id="btnReset">Reset</div>
+    <a href="lol.html">
+     <div class="btn btn-default" id="btnCheck">Check Answers</div>
+    </a>
+  </div>
+
+  <div class="center crossword" id="crossword"></div>
+  
+<div class="btn" id="btnGen">Generate</div>
+  
+  
+  <div class="col-lg-6 ">
+  <div class="clueBlock" id="cluesAcross">
+    <div class="clueDirection" id="directionAcross">ACROSS</div>
+
+    <div class="line">
+      <input class="word" type="text" value="SocialEngineering" />
+      <span class="lineNum"></span>
+      <input class="clue" value="The use of deception to manipulate individuals into confidential or personal information (3)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="CyberBullying" />
+      <span class="lineNum"></span>
+      <input class="clue" value="Is an act of deliberately harming, harassing, or targeting a person by another person using the internet. (5)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="EthicalHacking" />
+      <span class="lineNum"></span>
+      <input class="clue" value="Hacking which is done for good cause is(4)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Phishing"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="Is an act of sending e-mail to a user misleading him to believe that it is from a trusted person or organization. (7)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="ComputingEthics"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="Is a set of procedures moral principles, and ethical practices that regulate the use of computers.(4)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Keylogger"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="programs are used to check user’s keystrokes and get important information, such as password, etc. (4)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Spams"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="Are unwanted bulk emails that come from strange sources. (5)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Cybercrime "/>
+      <span class="lineNum"></span>
+      <input class="clue" value="Is any illegal activity done through the Internet. (7)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Citation"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="The simplest way to prevent plagiarism is  (5)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Software Piracy"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="When software is copied and distributed illegally, it is called (10)" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Firewall"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="Is a security system that prevents unauthorized people to access your system and network. (9)"/>
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="DumpsterDiving"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="Diving is a technique used to fetch personal details of a user from his discarded documents. (4)" />
+    </div>
+    
+    <div class="line">
+      <input class="word" type="text" value="Virus"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="A type of a malicious software (8)" />
+    </div>
+    
+	<div class="line">
+      <input class="word" type="text" value="GoogleAnalytics"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="The tool which is used for tracking and reporting the traffic received on a particular website. (6)" />
+    </div>
+    
+    <div class="line">
+      <input class="word" type="text" value="Spyware"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="Is a software which keeps a track of all your activities and sends your confidential information to hacker. (7)" />
+    </div>
+    
+      <div class="line">
+      <input class="word" type="text" value="Eight"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="A password should be minimum _____ characters long. (5) " />
+    </div>
+    
+        <div class="line">
+      <input class="word" type="text" value="InternetIdentity"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="Is a social identity that a user establishes during online communities and websites. (11)" />
+    </div>
+    
+    <div class="line">
+      <input class="word" type="text" value="CyberLaw"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="Is a term that encapsulates the legal issues related to use of the internet. (4)" />
+    </div>
+    
+	<div class="line">
+      <input class="word" type="text" value="CyberSaftey"/>   
+      <span class="lineNum"></span>   
+      <input class="clue" value="Means keeping our personal information, financial information, and online storage safe and secure from cyber thefts (4)" />
+    </div>
+    
+    </div>
+    
+    
+    
+  </div>
+  
+  
+  <div class="col-lg-6">
+  <div class="clueBlock" id="cluesDown">
+    <div class="clueDirection" id="directionDown">DOWN</div>
+  </div>
+
+</div>
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
